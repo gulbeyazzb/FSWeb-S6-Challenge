@@ -5,4 +5,41 @@
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+.container {
+  width: 66.5%;
+}
+.accordion {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+.accordion-item {
+  border: 2px solid #e2e2e2ac;
+  background-color: bisque;
+}
+.details li {
+  margin-bottom: 2rem;
+}
+
+.pages {
+  width: 52%;
+  margin: auto;
+  padding: 0;
+}
+
+.pages-item {
+  color: #443e3e;
+  border: none;
+  padding: 1rem;
+}
+
+.inputDiv {
+  width: 52%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
 /* write your parent styles in here for your App.js */
