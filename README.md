@@ -62,7 +62,6 @@ Gerekli şeyleri bitirdikten sonra çalışmanızı daha da ileri götürebilirs
 - [ ] Stil bileşenleri ile effektler veya animasyonlar oluşturun.
 - [ ] Bir dizi promise'ini çözmek için Promise.all'ı kullanın.
 
-
 ## Esnek Mülakat Soruları
 
 1. React JS nedir ve hangi sorunları çözer? Yanıtınızı sınıfta tanıtılan kavramlarla ve web'deki kişisel araştırmanızla destekleyin.

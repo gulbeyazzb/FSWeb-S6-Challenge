@@ -6,6 +6,7 @@ import {
   AccordionItem,
   List,
 } from "reactstrap";
+import Filmler from "./Filmler";
 
 const Karakter = (props) => {
   const characters = props.people;
@@ -23,7 +24,7 @@ const Karakter = (props) => {
       <Accordion flush open={open} toggle={toggle}>
         {characters.map((character, i) => {
           return (
-            <div className="container">
+            <div className="container" key={i}>
               <AccordionItem className=" accordion">
                 <AccordionHeader className="accordion-item" targetId={i}>
                   {character.name}
@@ -37,6 +38,7 @@ const Karakter = (props) => {
                     <li>Eye Color: {character.eye_color}</li>
                     <li>Hair Color: {character.hair_color}</li>
                     <li>Skin Color: {character.skin_color} </li>
+                    <Filmler id={i} url={character.url} />
                   </List>
                 </AccordionBody>
               </AccordionItem>

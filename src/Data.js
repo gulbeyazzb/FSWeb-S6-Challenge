@@ -1,4 +1,4 @@
-const Data = () => [
+const Data = [
   {
     name: "Luke Skywalker",
     height: "172",
